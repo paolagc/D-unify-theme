@@ -1,0 +1,14 @@
+core = 7.x
+name = Bootstrap base
+description = Unify based theme
+
+regions[page_top] = Page Top
+regions[header] = Header
+regions[highlight] = Highlight
+regions[pre_content] = Top Content
+regions[content] = Content
+regions[post_content] = Post Content
+regions[sidebar_left] = Sidebar Left
+regions[sidebar_right] = Sidebar Right
+regions[footer] = Footer
+regions[page_bottom] = Page Bottom

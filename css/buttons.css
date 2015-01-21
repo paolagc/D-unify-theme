@@ -1,0 +1,99 @@
+
+/*Buttons
+------------------------------------*/
+.btn-u {
+	background: #72c02c;
+}
+
+.btn-u:hover {
+	background: #5fb611;
+}
+
+
+/*Button Style*/
+.btn {
+	box-shadow: none;
+}
+
+.btn-u {
+	border:0;
+	font-size:14px;
+	cursor:pointer;
+	padding:5px 13px;
+	position:relative;
+	background:#72c02c;
+	display:inline-block;
+	color:#fff !important;
+	text-decoration:none !important;
+}
+.btn-u:hover {
+	color:#fff;
+	background:#5fb611;
+	text-decoration:none;
+    -webkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out;
+    -o-transition:all 0.4s ease-in-out;
+    transition:all 0.4s ease-in-out;
+}
+
+.btn-u-small {
+	padding:3px 12px;
+}
+.btn-u-large {
+	font-size:18px;
+	padding:10px 25px;
+}
+a.btn-u {
+	padding:4px 13px;
+	vertical-align:middle;
+}
+a.btn-u-small {
+	padding:2px 12px;
+}
+a.btn-u-large {
+	font-size:18px;
+	padding:6px 25px;
+}
+
+/*Buttons Color*/
+.btn-u-blue {
+	background: #3498db !important;
+}
+.btn-u-blue:hover {
+	background: #2980b9 !important;
+}
+
+.btn-u-red {
+	background: #e74c3c !important;
+}
+.btn-u-red:hover {
+	background: #c0392b !important;
+}
+
+.btn-u-orange {
+	background: #e67e22 !important;
+}
+.btn-u-orange:hover {
+	background: #d35400 !important;
+}
+
+.btn-u-sea {
+	background: #1abc9c !important;
+}
+.btn-u-sea:hover {
+	background: #16a085 !important;
+}
+
+.btn-u-green {
+	background: #2ecc71 !important;
+}
+.btn-u-green:hover {
+	background: #27ae60 !important;
+}
+
+.btn-u-yellow {
+	background: #F1C40F !important;
+}
+.btn-u-yellow:hover {
+	background: #F39C12 !important;
+}

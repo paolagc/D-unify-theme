@@ -1,0 +1,81 @@
+
+/*Social Icons*/
+.social-icons {
+	margin:0;
+}
+.social-icons li {
+	float:left;
+	display:inline;
+	list-style:none;
+	margin-right:5px;
+	margin-bottom:5px;
+	text-indent:-9999px;
+}
+.social-icons li a, a.social-icon {
+	width:28px;
+	height:28px;
+	display:block;
+	background-position:0 0;
+	background-repeat:no-repeat;
+	transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+}
+.social-icons li:hover a {
+	background-position:0 -38px;
+}
+
+.social_amazon {background: url(../img/icons/social/amazon.png) no-repeat;}
+.social_behance {background: url(../img/icons/social/behance.png) no-repeat;}
+.social_blogger {background: url(../img/icons/social/blogger.png) no-repeat;}
+.social_deviantart {background: url(../img/icons/social/deviantart.png) no-repeat;}
+.social_dribbble {background: url(../img/icons/social/dribbble.png) no-repeat;}
+.social_dropbox {background: url(../img/icons/social/dropbox.png) no-repeat;}
+.social_evernote {background: url(../img/icons/social/evernote.png) no-repeat;}
+.social_facebook {background: url(../img/icons/social/facebook.png) no-repeat;}
+.social_forrst {background: url(../img/icons/social/forrst.png) no-repeat;}
+.social_github {background: url(../img/icons/social/github.png) no-repeat;}
+.social_googleplus {background: url(../img/icons/social/googleplus.png) no-repeat;}
+.social_jolicloud {background: url(../img/icons/social/jolicloud.png) no-repeat;}
+.social_last-fm {background: url(../img/icons/social/last-fm.png) no-repeat;}
+.social_linkedin {background: url(../img/icons/social/linkedin.png) no-repeat;}
+.social_picasa {background: url(../img/icons/social/picasa.png) no-repeat;}
+.social_pintrest {background: url(../img/icons/social/pintrest.png) no-repeat;}
+.social_rss {background: url(../img/icons/social/rss.png) no-repeat;}
+.social_skype {background: url(../img/icons/social/skype.png) no-repeat;}
+.social_spotify {background: url(../img/icons/social/spotify.png) no-repeat;}
+.social_stumbleupon {background: url(../img/icons/social/stumbleupon.png) no-repeat;}
+.social_tumblr {background: url(../img/icons/social/tumblr.png) no-repeat;}
+.social_twitter {background: url(../img/icons/social/twitter.png) no-repeat;}
+.social_vimeo {background: url(../img/icons/social/vimeo.png) no-repeat;}
+.social_wordpress {background: url(../img/icons/social/wordpress.png) no-repeat;}
+.social_xing {background: url(../img/icons/social/xing.png) no-repeat;}
+.social_yahoo {background: url(../img/icons/social/yahoo.png) no-repeat;}
+.social_youtube {background: url(../img/icons/social/youtube.png) no-repeat;}
+
+/*Glyphicons*/
+.glyphicons-demo {
+    text-align: ;
+}
+
+.glyphicons-demo .glyphicons {
+    color: #999999;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 48px;
+    margin-right: 20px;
+    text-align: left;
+    width: 150px;
+}
+
+.glyphicons-demo .glyphicons i:before {
+    color: #666666;
+    line-height: 55px !important;
+}
+
+.glyphicons-demo a:hover {
+	color: #72c02c;
+	text-decoration: none;
+}
