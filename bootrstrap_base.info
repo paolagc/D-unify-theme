@@ -3,14 +3,11 @@ name = Bootstrap base
 description = Unify based theme
 
 
-regions[page_top] = Page Top
-regions[header] = Header
-regions[highlighted] = Highlighted
-regions[pre_content] = Top Content
+regions[page_top] = Page Toped
+regions[top] = Top Content
 regions[content] = Content
-regions[post_content] = Post Content
-regions[sidebar_left] = Sidebar Left
-regions[sidebar_right] = Sidebar Right
+regions[bottom] = Bottom Content
+regions[sidebar] = Sidebar
 regions[footer] = Footer
 regions[page_bottom] = Page Bottom
 

@@ -18,24 +18,28 @@
 			</div>
 			<div class="navbar navbar-default mega-menu" role="navigation">
 				<div class="container">			
-					<div class="class-col-md-3">
-						<!-- Start  logo-->		
-							<?php if ($site_name || $site_slogan): ?>
-						      <div class="header__name-and-slogan" id="name-and-slogan">
-						        <?php if ($site_name): ?>
-						          <h1 class="header__site-name" id="site-name">
-						            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" class="header__site-link" rel="home"><span><?php print $site_name; ?></span></a>
-						          </h1>
-						        <?php endif; ?>
+					<div class="class-col-md-2">
+						<?php if($logo): ?>
+				          <div id="logo-container">
+				            <?php print $imagelogo; ?>
+				          </div>
+				        <?php endif; ?>
 
-						        <?php if ($site_slogan): ?>
-						          <div class="header__site-slogan" id="site-slogan"><?php print $site_slogan; ?></div>
-						        <?php endif; ?>
-						      </div>
-						    <?php endif; ?>
-						  <!-- End  logo-->
+				        <?php if($site_name || $siteslogan ): ?>
+				          <!--start title and slogan-->
+				          <div id="title-slogan">
+				            <?php if($site_name): ?>
+				              <?php print $sitename; ?>
+				            <?php endif; ?>
+
+				            <?php if($site_slogan): ?>
+				              <?php print $siteslogan; ?>
+				            <?php endif; ?>
+				          </div>
+				          <!--end title and slogan-->
+				        <?php endif; ?>
 					</div>
-					<div class="col-md-9">
+					<div class="col-md-10">
 						<!-- Start Main Navbar -->
 					    <nav id="main_menu" role="navigation">
 						<?php 
@@ -50,6 +54,7 @@
 				              'class' => array('element-invisible'),
 				            ),
 				          )); ?>
+				          <i class="search fa search-btn fa-times"></i>
 						</nav>
 	   					<!-- End Main Navbar -->
 					</div>	
@@ -79,8 +84,16 @@
 				      <?php if ($title): ?>
 				        	<h1 class="page__title title pull-left" id="page-title"><?php print $title; ?></h1>
 				      <?php endif; ?>
-				      <?php print render($title_suffix); ?>				     
-	      			  <?php print $breadcrumb; ?>
+				      <?php print render($title_suffix); ?>	
+
+
+	      			  <!--start breadcrumb -->
+					      <?php if($breadcrumb): ?>
+					        	<div id="breadcrumb" class="pull-right">
+					        		<?php print $breadcrumb; ?>
+					        	</div>
+					      <?php endif; ?>
+				      <!-- end breadcrumb -->
 			</div>
 			<!-- breadcrumbs-->
 		</header>
