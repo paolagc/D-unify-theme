@@ -12,7 +12,7 @@
 	<!-- Start page-->
 	<div id="page">
 		
-		<?php include('header.tpl.php');?>
+		<?php include 'header.tpl.php';?>
 
 		<!-- Start content-->
 		<div class="container content">
@@ -23,13 +23,16 @@
 				<?php if ($action_links): ?>
 				  <ul class="action-links"><?php print render($action_links); ?></ul>
 				<?php endif; ?>
-				<?php print render($page['content']); ?>
+				<?php 
+					$content = $page['content'];
+					print render($content);
+				 ?>
 			</div>
 			<!-- End main content-->
 		</div>
 		<!-- End content-->
 
-		<?php include('footer.tpl.php');?>
+		<?php include 'footer.tpl.php';?>
 	</div>
 	<!-- End page-->
 </div>
