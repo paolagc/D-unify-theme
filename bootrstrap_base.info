@@ -15,3 +15,5 @@ regions[page_bottom] = Page Bottom
 
 stylesheets[all][] = css/bootstrap/bootstrap.min.css
 stylesheets[all][] = css/style.css
+stylesheets[all][] = css/header.css
+stylesheets[all][] = css/footer.css

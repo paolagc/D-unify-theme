@@ -1,0 +1,69 @@
+/*footer
+------------------------------------*/
+.footer .footer {
+	padding: 40px 0;	
+	background: #272727;
+}
+
+.footer .footer p {
+	color: #eee;
+}
+
+.footer .footer h2 {
+	color: #eee;
+	font-size: 18px;
+	font-weight: 200;
+}
+
+/*Link List*/
+.footer .link-list li {
+	border-top: solid 1px #353535;
+}
+
+.footer address,
+.footer .link-list a,
+.footer .link-list i {
+	color: #eee;
+}
+
+.footer address {
+	line-height: 23px;
+}
+
+/*Dotted Map*/
+.footer .footer .map-img {
+	background: url(../../img/map-img.png) 5px 60px no-repeat;
+}
+
+/*Copyright*/
+.footer .copyright {
+	background: #222;
+	border-top: none;
+	padding: 10px 0 5px;
+}
+
+.footer .copyright p {
+	color: #eee;
+	margin-top: 14px;
+}
+
+.footer .copyright a {
+	margin: 0 2px;
+}
+
+.footer .footer-socials {
+	margin-top: 12px;
+	text-align: right;
+}
+
+.footer .footer-socials li a {
+	color: #777;
+	font-size: 16px;
+}
+
+@media (max-width: 991px) {
+	.footer .copyright,
+	.footer .footer-socials {
+		text-align: left;
+	}
+}

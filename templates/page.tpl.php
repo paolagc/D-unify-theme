@@ -27,8 +27,7 @@
 			</div>
 			<div class="navbar navbar-default mega-menu" role="navigation">
 				<div class="container">
-					<div class="row">
-						<div class="col-md-2">
+						<div class="navbar-header">
 							<?php if($logo): ?>
 					          <div id="logo-container">
 	       						 <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
@@ -48,7 +47,7 @@
 					      <?php endif; ?>
 						</div>
 
-						<div class="col-md-10">
+						<div class="collapse navbar-collapse navbar-responsive-collapse">
 							<!-- Start Main Navbar -->
 						    <nav id="main_menu" role="navigation">
 							<?php 
@@ -67,7 +66,6 @@
 							</nav>
 		   					<!-- End Main Navbar -->
 						</div>	
-					</div>	
 				</div>			    
 			</div>
 
@@ -85,21 +83,23 @@
 
 			<!-- Start breadcrumbs-->
 			<div class="breadcrumbs">
-				<a id="main-content"></a>
-				      <?php print render($title_prefix); ?>
-				      <?php if ($title): ?>
-				        	<h2 class="page__title title pull-left" id="page-title"><?php print $title; ?></h2>
-				      <?php endif; ?>
-				      <?php print render($title_suffix); ?>	
-
-
-	      			  <!--start breadcrumb -->
-					      <?php if($breadcrumb): ?>
-					        	<div id="breadcrumb" class="pull-right">
-					        		<?php print $breadcrumb; ?>
-					        	</div>
+				<div class="container">
+					<div id="page-title" class="pull-left">
+						<a id="main-content"></a>
+					      <?php print render($title_prefix); ?>
+					      <?php if ($title): ?>
+					        	<h2 class="page__title title pull-left" id="page-title"><?php print $title; ?></h2>
 					      <?php endif; ?>
-				      <!-- end breadcrumb -->
+					      <?php print render($title_suffix); ?>	
+					</div>
+				 <!--start breadcrumb -->
+				<?php if($breadcrumb): ?>
+					<div  class="pull-right breadcrumbs">
+					    <?php print $breadcrumb; ?>
+					</div>
+				<?php endif; ?>
+				<!-- end breadcrumb -->
+				</div>
 			</div>
 			<!-- breadcrumbs-->
 		</header>
